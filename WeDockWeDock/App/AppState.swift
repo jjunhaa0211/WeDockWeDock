@@ -1,0 +1,12 @@
+//
+//  AppState.swift
+//  WeDockWeDock
+//
+//  Created by 박준하 on 1/27/26.
+//
+
+import Combine
+
+final class AppState: ObservableObject {
+    @Published var isExpanded: Bool = true
+}
